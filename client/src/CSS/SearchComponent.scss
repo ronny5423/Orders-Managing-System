@@ -1,0 +1,51 @@
+  #searchInput {
+    width: 100%;
+    padding: 1%;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color: white;
+    outline: 0;
+    transition: border .1s ease;
+    resize: none;
+    border: darkgrey;
+    background-color: black;
+    text-align: center;
+
+    &::placeholder  {
+      color: #b6c1cd;
+
+    }
+  }
+
+.mainDiv{
+  width: 100%;
+  height: fit-content;
+  background-color: #20455e;
+  color: #a5a5a5;
+}
+
+.singleFilterDiv{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+
+.filtersDiv{
+  margin-left: 3%;
+  width: 50%;
+}
+
+span{
+  margin-left:1%;
+  margin-right: 3%;
+}
+
+h3{
+  margin-left:1%;
+}
+
+#sortOrderDiv{
+  margin-left: 3%;
+}
+
